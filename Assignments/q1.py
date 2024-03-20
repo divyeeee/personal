@@ -1,0 +1,5 @@
+x=int(input("Number days taken by A"))
+y=int(input("Number days taken by B"))
+z=int(input("Number days taken by C"))
+d=x*y*z/(y*z+z*x+x*y)
+print("Number of days taken by A,B,C to complete the work together is",int(d)+1)
