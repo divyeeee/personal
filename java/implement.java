@@ -19,5 +19,7 @@ public class implement {
         int key=sc.nextInt();
         String res=binarysearch.binary2dSearch(arr, row, col, key);
         System.out.println(res);
+        sc.close();
    }
+
 }

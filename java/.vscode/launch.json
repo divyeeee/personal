@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "java_b2955dcf"
+        },
+        {
+            "type": "java",
+            "name": "mergesort",
+            "request": "launch",
+            "mainClass": "mergesort",
+            "projectName": "java_b2955dcf"
+        },
+        {
+            "type": "java",
+            "name": "vid29_Q3_Q4",
+            "request": "launch",
+            "mainClass": "vid29_Q3_Q4",
+            "projectName": "java_b2955dcf"
+        },
+        {
+            "type": "java",
+            "name": "vid29_Q3",
+            "request": "launch",
+            "mainClass": "vid29_Q3",
+            "projectName": "java_b2955dcf"
+        },
+        {
+            "type": "java",
+            "name": "vid29_Q1",
+            "request": "launch",
+            "mainClass": "vid29_Q1",
+            "projectName": "java_b2955dcf"
+        },
+        {
+            "type": "java",
+            "name": "vid28_Q6",
+            "request": "launch",
+            "mainClass": "vid28_Q6",
+            "projectName": "java_b2955dcf"
+        },
+        {
+            "type": "java",
+            "name": "vid28_Q1",
+            "request": "launch",
+            "mainClass": "vid28_Q1",
+            "projectName": "java_b2955dcf"
+        },
+        {
+            "type": "java",
             "name": "Testing",
             "request": "launch",
             "mainClass": "Testing",
