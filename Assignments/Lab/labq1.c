@@ -69,4 +69,5 @@ int main(){
    printf("Enter 0 for continuing and 1 to exit:");
    scanf("%d",&opt);
    }
+   return 0;
 }

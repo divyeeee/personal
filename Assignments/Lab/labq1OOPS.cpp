@@ -34,20 +34,34 @@ void fiboseries(){
         n--;
     }
 }
+/*int fiborec(int n){
+    if(n<=1){
+        cout<<"0 1 ";
+        return 1;
+    }
+
+
+}*/
 void quotient_remainder(){
     int a,b;
     cout<<"Enter two numbers:";
     cin>>a>>b;
-    double q=a/b;
+    int q=a/b;
     int r=a%b;
     cout<<"Quotient: "<<q<<endl;
     cout<<"Remainder: "<<r<<endl;
+}
+void charASCII(){
+    char a;
+    cout<<"Enter a character";
+    cin>>a;
+    cout<<"ASCII value of "<<a<<" is "<<(int)a<<endl;
 }
 int main(){
     int choice=0;
     int opt=0;
     while(opt==0){
-        cout<<"Enter 1 for odd even, 2 for swapping, 3 for fibonacci series, 4 for quotient and remainder:";
+        cout<<"Enter 1 for odd even, 2 for swapping, 3 for fibonacci series, 4 for quotient and remainder, 5 for ASCII value of a character:";
         cin>>choice;
         switch (choice)
         {
@@ -58,6 +72,8 @@ int main(){
         case 3: fiboseries();
             break;
         case 4: quotient_remainder();
+            break;
+        case 5: charASCII();
             break;
         default:
             break;

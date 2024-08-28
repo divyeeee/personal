@@ -1,8 +1,5 @@
 {
     "files.associations": {
-        "ostream": "cpp",
-        "stdio.h": "c",
-        "iostream": "cpp",
         "cctype": "cpp",
         "clocale": "cpp",
         "cmath": "cpp",
@@ -54,11 +51,13 @@
         "initializer_list": "cpp",
         "iomanip": "cpp",
         "iosfwd": "cpp",
+        "iostream": "cpp",
         "istream": "cpp",
         "limits": "cpp",
         "mutex": "cpp",
         "new": "cpp",
         "numbers": "cpp",
+        "ostream": "cpp",
         "semaphore": "cpp",
         "shared_mutex": "cpp",
         "sstream": "cpp",

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "vid30",
+            "request": "launch",
+            "mainClass": "vid30",
+            "projectName": "java_b2955dcf"
+        },
+        {
+            "type": "java",
             "name": "quicksort",
             "request": "launch",
             "mainClass": "quicksort",
