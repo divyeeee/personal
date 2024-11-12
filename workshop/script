@@ -1,0 +1,35 @@
+FFull Bot assembly + Bot fully working :
+
+–General pointers
+Step 1: 
+-	Since the hardware has already been discussed, ask few questions,and handout prizes, if there are.
+Step 2: 
+-	Can also ask about questions the code.
+Step 3: 
+-	Chassis setup, talk ,screw motors in, tell few fact about the motor,(12V,brushed motor).
+Step 4: 
+-	Connecting the the wheels to the motor axle
+-	Screw in the caster wheel, first ask if anyone knows about this.
+Step 5: 
+-Connect in the jumper wires and also tell about different jumper wires, maybe joke about lgbt, double meaning.
+Step 6: 
+-	First make the connection from esp to the motor driver--input pins 1,2,3,4 to PWM pins 12,13,14,27 or as specified in the ppt--ask questions about the motor driver.
+Step 7: 
+-	Connect enable pins to GPIO 25,26 pins.
+Step 8: 
+-	Provide 12v from battery(red)-maybe ask about the color coding, connect ground to motor driver.
+-	Provide 5v from motor driver to esp and make ground common- maybe ask some question related to potential difference.
+
+The hardware is done!
+Final Step : 
+-	Check the ip of the esp.
+-	Now configure the ip and password in the code-ask  questions.
+-	Full setup is done, troubleshoot problems.
+-	Move the bot.
+-	Ask about the easter egg.
+-	Explain the code to those who ask about the easter egg,
+explain utf-8 encoding.
+-	Send for obstacle course.
+-	Maybe conduct a row wise quiz and distribute prize.
+
+

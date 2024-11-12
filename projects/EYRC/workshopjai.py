@@ -31,6 +31,7 @@ esp_port = 80
 
 # Keep the socket connection open during the whole session
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+    #pass
     s.connect((esp_ip, esp_port))
     
     cap = cv2.VideoCapture(0)
@@ -69,22 +70,22 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 message = b"none"
                 match fingers:
                     case 1:
-                        message = b"one"
+                        message = b"one\r"
                         if message != last_message:
                             s.send(message)
                             last_message = message
                     case 2:
-                        message = b"two"
+                        message = b"two\r"
                         if message != last_message:
                             s.send(message)
                             last_message = message
                     case 3:
-                        message = b"three"
+                        message = b"three\r"
                         if message != last_message:
                             s.send(message)
                             last_message = message
                     case 4:
-                        message = b"four"
+                        message = b"four\r"
                         if message != last_message:
                             s.send(message)
                             last_message = message
