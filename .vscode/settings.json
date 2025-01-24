@@ -70,5 +70,6 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
-    }
+    },
+    "java.debug.settings.onBuildFailureProceed": true
 }
